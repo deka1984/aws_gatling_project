@@ -98,8 +98,8 @@ class aws_gatling_project extends Simulation {
     }
 
 	setUp(
-	cart_scenario.inject(atOnceUsers(1))
-//	cart_scenario.inject(rampUsers(Users) during (RampUp seconds))
+//	cart_scenario.inject(atOnceUsers(1))
+	cart_scenario.inject(rampUsers(Users) during (RampUp seconds))
 	)
 	.protocols(httpProtocol)
 	.maxDuration(Duration seconds)
