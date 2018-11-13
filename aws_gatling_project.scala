@@ -5,7 +5,7 @@ import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 import io.gatling.jdbc.Predef._
 
-class academysports extends Simulation {
+class aws_gatling_project extends Simulation {
 
 //	val baseURL = "https://www.academy.com"
 //	val Users  = 1
